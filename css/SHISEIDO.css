@@ -17,9 +17,9 @@ body {
   background-repeat: no-repeat;
 }
 .wapper .header_menu-div {
-  text-align: right;
-  margin-right: 50px;
   padding-top: 10px;
+  margin-right: 50px;
+  text-align: right;
 }
 .header_menu-div .header_menu {
   list-style: none;
@@ -32,30 +32,26 @@ body {
   margin-left: 20px;
 }
 .wapper .header_menu-div .header_menu .header_menu-item a {
-  color: white;
-  text-decoration: none;
   padding-bottom: 5px;
   border-bottom: 1px white solid;
+  color: white;
+  text-decoration: none;
 }
 .wapper .top_icon {
   width: 200px;
   height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
 }
 .wapper .Play_button {
-  text-align: center;
   margin-top: 30px;
+  text-align: center;
 }
 button.play_button {
   font-size: 30px;
 }
 .wapper .top-title {
   color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  margin: 30px auto 0 auto;
 }
 .wapper .top-title p {
   font-size: 30px;
@@ -340,30 +336,7 @@ button.play_button {
   margin-bottom: 6px;
   color: white;
 }
-.section-item ul .bgc_green {
-  background-color: #87a589;
-}
-.section-item ul .bgc_pink {
-  background-color: #cc90a5;
-}
-.section-item ul .bgc_gray {
-  background-color: #a3a3a3;
-}
-.section-item ul .bgc_blue {
-  background-color: #80a2af;
-}
-.section-item ul .bgc_yellow {
-  background-color: #ccbb76;
-}
-.section-item ul .bgc_papple {
-  background-color: #9e7b97;
-}
-.section-item ul .bgc_lavender {
-  background-color: #9398bb;
-}
-.section-item ul .bgc_blown {
-  background-color: #b08475;
-}
+
 .section-item_text .message {
   margin-bottom: 3px;
   font-size: 15px;
