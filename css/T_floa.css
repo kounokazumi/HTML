@@ -1,0 +1,22 @@
+/* ---ヘッダーメニュー--- */
+.title {
+  width: auto;
+  height: 48px;
+  text-align: center;
+}
+.header_menu {
+  list-style: none;
+  width: auto;
+}
+.header_menu li {
+  display: inline;
+}
+.header_menu li:not(:first-child) {
+  margin-left: 20px;
+}
+.header_menu li a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px white solid;
+}
