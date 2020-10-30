@@ -1,0 +1,68 @@
+/* ---ヘッダーメニュー--- */
+
+.header_menu-wrap {
+  height: 100px;
+  background-color: ghostwhite;
+}
+.title {
+  width: auto;
+  height: 48px;
+  position: relative;
+  text-align: center;
+}
+.title span {
+  font-size: 25px;
+}
+.header_menu {
+  position: absolute;
+  width: auto;
+  list-style: none;
+  right: 68px;
+  top: 30px;
+}
+.header_menu li {
+  display: inline;
+}
+.header_menu li:not(:first-child) {
+  margin-left: 20px;
+}
+.header_menu li a {
+  color: black;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px black solid;
+}
+.breadcrumb_list {
+  background-color: #b3d4fc;
+}
+.breadcrumb_list ul {
+  width: 960px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.breadcrumb_list ul li {
+  display: inline-block;
+  position: relative;
+  margin-right: 2.72em;
+  font-size: 11px;
+}
+.breadcrumb_list ul li:not(:last-child)::after {
+  position: absolute;
+  right: -1.6em;
+  content: ">";
+}
+/* ---ヘッダーメニュー end--- */
+
+/* ---メインコンテンツ---*/
+.page-title {
+  height: 170px;
+  background-color: white;
+}
+.page-title h2 {
+  padding: 67px;
+  color: #b28850;
+  font-size: 34px;
+  line-height: 1.06;
+  text-align: center;
+}

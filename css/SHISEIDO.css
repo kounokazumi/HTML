@@ -315,13 +315,11 @@ button.play_button {
 .section_inner .section-item img {
   display: inline-block;
   width: 408px;
-  height: auto;
   vertical-align: top;
 }
 .section_inner .section-item_text {
   display: inline-block;
   width: 408px;
-  height: auto;
   margin-left: 30px;
 }
 .section_inner .section-item_text h4 {
@@ -344,10 +342,11 @@ button.play_button {
   text-align: left;
 }
 .section-item .section-item_text a {
-  display: block;
+  display: flex;
   padding: 4px 24px 4px 24px;
   height: 38px;
   margin: 14px 0 14px 0;
+  align-items: center;
   font-size: 15px;
   line-height: 1.87;
   color: #b28850;
