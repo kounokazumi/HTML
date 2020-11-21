@@ -21,7 +21,7 @@
         </header>
         <div class="top_icon">
           <img
-            src="../../Desktop/SHISEIDO/main-Visual_symbol.svg"
+            src="<?php bloginfo('template_url')?>/SHISEIDO/images/TOP.jpg"
             title="tubaki_icon"
           />
         </div>
