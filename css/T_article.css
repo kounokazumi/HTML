@@ -220,3 +220,286 @@ main .massage {
   text-decoration: underline;
 }
 /* ---メインコンテンツ end--- */
+
+/* ---記事ページスタイル--- */
+
+.section {
+  /* position: relative; */
+  width: 960px;
+  margin: 50px auto 92px auto;
+}
+.-rec {
+  margin-bottom: 0px;
+}
+.detaile-title {
+  display: block;
+  position: relative;
+  margin: 32px 0 24px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  line-height: 1.2;
+  text-align: left;
+}
+.detaile-title::before {
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  bottom: 0;
+  background-color: #b28850;
+  content: "";
+}
+.entry-title {
+  margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.entry-category li a {
+  color: #b28850;
+  text-decoration: underline;
+}
+.entry-item-text {
+  margin-top: 38px;
+  font-size: 16px;
+  line-height: 2;
+}
+.-info {
+  margin-top: 30px;
+}
+.-col2 {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.-col2 img {
+  width: 49%;
+}
+
+.entry-item-img {
+  margin-top: 48px;
+}
+.entry-body h4 {
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.share-items {
+  display: flex;
+  margin: 48px 0 55px;
+  padding-top: 48px;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 1px #b28850;
+}
+.share-items_title {
+  text-align: center;
+  color: #b28850;
+}
+.share-items_list {
+  display: flex;
+  margin-left: 23px;
+}
+.share-items_list li {
+  margin: 0 10px 0;
+}
+.share-items_list p {
+  width: 30px; /*幅*/
+  height: 30px; /*高さ*/
+  border-radius: 50%; /*角丸*/
+  background-color: #b28850;
+}
+.share-items_list a {
+  margin-left: 10px;
+  font-size: 20px;
+  color: white;
+}
+.entry-foot_categories li a {
+  color: #b28850;
+  text-decoration: underline;
+}
+.entry-foot_buttom {
+  margin-top: 42px;
+  text-align: center;
+}
+.entry-foot_buttom .arrow-buttom {
+  display: inline-block;
+  align-items: center;
+  width: 620px;
+  height: 48px;
+  padding: 13px 24px;
+  font-weight: 500;
+  border: solid 1px #b28850;
+  color: #b28850;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.entry-foot_buttom .arrow-buttom_text {
+  margin: 0 150px 0 150px;
+}
+/* ---　関連記事リスト　--- */
+.lerated {
+  padding: 60px 30px;
+  margin: 0 auto 92px auto;
+  width: 900px;
+  background-color: white;
+  opacity: 0.9;
+  z-index: 1;
+}
+.lerated .lerated-title {
+  text-align: center;
+  color: #b28850;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 1;
+}
+.lerated_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.lerated_list .card_small {
+  margin-bottom: 30px;
+  width: 408px;
+  display: inline-block;
+}
+.lerated_list .card_small img {
+  margin-right: 18px;
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+}
+.lerated_list .card_small .text {
+  width: 280px;
+  height: 100%;
+  display: inline-block;
+}
+.lerated_list .card_small .text p {
+  line-height: 1.8;
+  color: black;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+    "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic Pro",
+    Meiryo, メイリオ, "ＭＳ Ｐゴシック", sans-serif;
+}
+.lerated_list .card_small .text h3::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  background-color: #b28850;
+  height: 1px;
+  content: "";
+}
+.lerated_list .card_small .text h3 {
+  position: relative;
+  padding-bottom: 12px;
+  margin: 5px 0px 12px 0px;
+  color: #222;
+  letter-spacing: 1.2px;
+  font-family: TTNorms, "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic",
+    sans-serif;
+}
+/* ----関連記事リスト　end--- */
+
+/*  ---おすすめ記事---  */
+.recommend {
+  background-color: #222;
+  padding: 60px 0 60px 0;
+}
+.section .recommend-title {
+  color: #b28850;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 500;
+}
+.recommend .recommend-entries {
+  display: flex;
+  padding-top: 30px;
+  margin-top: 40px;
+  border-top: solid 1px #b28850;
+  border-bottom: solid 1px #b28850;
+}
+.recommend-entries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.recommend-entries .card_small {
+  margin-bottom: 30px;
+  display: inline-block;
+}
+.recommend-entries .card_small a {
+  color: white;
+}
+.recommend-entries .card_small img {
+  margin-right: 10px;
+  width: 180px;
+  height: 180px;
+  vertical-align: top;
+}
+.recommend-entries .card_small .text {
+  margin-top: 20px;
+  width: 280px;
+  height: 100%;
+  display: inline-block;
+}
+.recommend-entries .card_small .text h3 {
+  position: relative;
+  padding-bottom: 12px;
+  margin: 5px 0px 12px 0px;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+}
+.recommend-entries .card_small .text h3::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  background-color: #b28850;
+  height: 1px;
+  content: "";
+}
+.recommend-entries .card_small .text p {
+  line-height: 1.8;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+}
+.recommend-list .card_small .text h3 {
+  position: relative;
+  padding-bottom: 12px;
+  margin: 5px 0px 12px 0px;
+  letter-spacing: 1.2px;
+}
+.recommend-entries .card_small .text h3::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  background-color: #b28850;
+  height: 1px;
+  content: "";
+}
+.recommend_categories {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.recommend_categories li {
+  margin: 0 1em 1em;
+}
+.recommend_categories a {
+  color: white;
+}
